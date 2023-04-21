@@ -47,7 +47,7 @@ h2{
 }
 
 
-form{
+.inputform{
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1%;
@@ -56,6 +56,13 @@ form{
     margin-left: 0.5%;
     margin-right: 1%;
 
+}
+label {
+    display: inline-block;
+}
+
+textarea{
+    vertical-align: top;
 }
 
 #btnsubmit{
@@ -76,4 +83,8 @@ img{
 
 footer{
     text-align: center;
+}
+
+footer a{
+    margin: 6px;
 }
